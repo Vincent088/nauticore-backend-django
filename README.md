@@ -13,7 +13,7 @@ A production-grade REST API built with Django REST Framework for managing vessel
 [![Swagger](https://img.shields.io/badge/Swagger-UI-85EA2D?style=flat&logo=swagger&logoColor=black)](http://127.0.0.1:8000/api/docs/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
-[Live API Docs](#) · [Frontend Repo](https://github.com/Vincent088/nauticore-frontend) · [Report Bug](#)
+[Live API Docs](#) · [Frontend Repo](https://github.com/Vincent088/nauticore-frontend-react) · [Report Bug](#)
 
 </div>
 
@@ -43,12 +43,12 @@ A production-grade REST API built with Django REST Framework for managing vessel
 
 ### The Full System
 
-| Layer             | Technology                       | Repository                                                             |
-| ----------------- | -------------------------------- | ---------------------------------------------------------------------- |
-| **Backend API**   | Django REST Framework            | This repo                                                              |
-| **Frontend**      | React 18 + TypeScript            | [nauticore-frontend](https://github.com/Vincent088/nauticore-frontend) |
-| **Database**      | SQLite (dev) / PostgreSQL (prod) | Managed by Django ORM                                                  |
-| **Documentation** | Swagger UI / ReDoc               | `/api/docs/`                                                           |
+| Layer             | Technology                       | Repository                                                                         |
+| ----------------- | -------------------------------- | ---------------------------------------------------------------------------------- |
+| **Backend API**   | Django REST Framework            | This repo                                                                          |
+| **Frontend**      | React 18 + TypeScript            | [nauticore-frontend-react](https://github.com/Vincent088/nauticore-frontend-react) |
+| **Database**      | SQLite (dev) / PostgreSQL (prod) | Managed by Django ORM                                                              |
+| **Documentation** | Swagger UI / ReDoc               | `/api/docs/`                                                                       |
 
 ### Who Uses It
 
@@ -746,7 +746,7 @@ After running `seed_nauticore`:
 
 ## 🔗 Related
 
-- **Frontend Repository**: [nauticore-frontend](https://github.com/Vincent088/nauticore-frontend)
+- **Frontend Repository**: [nauticore-frontend](https://github.com/Vincent088/nauticore-frontend-react)
 - **API Documentation**: Available at `/api/docs/` when running locally
 
 ---
